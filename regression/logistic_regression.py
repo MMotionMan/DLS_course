@@ -1,13 +1,9 @@
 import numpy as np
-import pandas as pd
-import scipy.linalg as sla
 import matplotlib.pyplot as plt
 
-from sklearn import datasets
-from sklearn.linear_model import LinearRegression, Lasso, Ridge
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import make_blobs
-from matplotlib.colors import ListedColormap, LinearSegmentedColormap
+from matplotlib.colors import ListedColormap
 
 
 def logits(x, w):
